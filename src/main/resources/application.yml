@@ -1,0 +1,18 @@
+#Spring Application Name
+spring:
+  application:
+    name: Zuul-Server
+
+#Server Port
+server:
+  port: 8765
+
+#Eureka Instance ID
+eureka:
+  instance:
+    instanceId: http://localhost:8761/eureka/
+
+#Ribbon Activation
+ribbon:
+  eureka:
+    enabled: true
